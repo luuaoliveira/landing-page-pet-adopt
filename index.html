@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PetAdopt – Encontre o amor da sua vida em quatro patas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="container nav__in">
+    <a href="#inicio" class="logo"><span class="logo__ic"><img src="./images/i.fa-solid.png" alt=""></span><span>PetAdopt</small></span></a>
+    <button class="nav__toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="nav__links" id="menu">
+      <a href="#inicio">Início</a>
+      <a href="#pets">Quer Adotar?</a>
+      <a href="#como-funciona">Como Funciona</a>
+      <a href="#historias">Depoimentos</a>
+      <a href="#apoie">Apoie a ONG</a>
+      <a href="#pets" class="btn btn--primary btn--sm">+ Quero Adotar</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="inicio">
+  <div class="container hero__in">
+    <div class="hero__text">
+      <span class="chip-badge">● PLATAFORMA DE ADOÇÃO RESPONSÁVEL</span>
+      <h1>Encontre o amor da sua vida em <span>quatro patas</span>💜</h1>
+      <p>Conectamos animais resgatados a famílias dispostas a dar um lar cheio de carinho, cuidado e muito amor. Adotar muda duas vidas.</p>
+      <div class="hero__btns">
+        <a href="#pets" class="btn btn--primary">Conheça Pets Disponíveis</a>
+        <a href="#como-funciona" class="btn btn--light">Como Funciona</a>
+      </div>
+      <ul class="stats">
+        <li><strong data-count="1200" data-prefix="+">+1.200</strong><span>Adoções</span></li>
+        <li><strong data-count="100" data-suffix="%">100%</strong><span>Vacinados</span></li>
+        <li><strong data-count="800" data-prefix="+">+800</strong><span>Voluntários</span></li>
+      </ul>
+    </div>
+    <div class="hero__img">
+      <img src="./images/unsplash_matR70IRqgg.png" alt="Cachorro e gato juntos">
+    </div>
+  </div>
+</section>
+
+<section class="section" id="pets">
+  <div class="container">
+    <header class="section__head">
+      <small class="eyebrow">ADOTE UM AMIGO</small>
+      <h2>Nossos Amiguinhos à Procura de um Lar</h2>
+      <p>Cada um tem uma história e um enorme coração para dar.</p>
+    </header>
+    <div class="filters" role="tablist">
+      <button class="filter is-active" data-filter="todos">Todos os Pets</button>
+      <button class="filter" data-filter="cao">🐶 Cães</button>
+      <button class="filter" data-filter="gato">🐱 Gatos</button>
+      <button class="filter" data-filter="filhote">🍼 Filhotes</button>
+      <button class="filter" data-filter="adulto">Adultos e Idosos</button>
+    </div>
+    <div class="cards" id="cards"></div>
+  </div>
+</section>
+
+<section class="section section--alt" id="como-funciona">
+  <div class="container">
+    <header class="section__head">
+      <small class="eyebrow">Passo a passo</small>
+      <h2>Como Funciona a Adoção</h2>
+      <p>Um processo simples, seguro e feito com carinho para você e para o pet.</p>
+    </header>
+    <div class="steps">
+      <article class="step"><span class="step__n">01</span><h3>Escolha seu Pet</h3><p>Navegue pelos perfis e encontre o amigo que combina com você.</p></article>
+      <article class="step"><span class="step__n">02</span><h3>Preencha o Formulário</h3><p>Conte um pouco sobre você, sua casa e sua rotina.</p></article>
+      <article class="step"><span class="step__n">03</span><h3>Entrevista e Visita</h3><p>Nossa equipe conversa com você e conhece o novo lar.</p></article>
+      <article class="step"><span class="step__n">04</span><h3>Adote com Amor</h3><p>Assine o termo e leve seu novo melhor amigo para casa.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="historias">
+  <div class="container">
+    <header class="section__head">
+      <small class="eyebrow">Depoimentos</small>
+      <h2>Famílias Reais, Vidas Transformadas</h2>
+      <p>Veja o que dizem quem já abriu as portas para um novo amigo.</p>
+    </header>
+    <div class="testimonials">
+      <figure class="tcard"><div class="stars">★★★★★</div><blockquote>Adotar a Luna foi a melhor decisão da nossa vida. O processo foi acolhedor e a equipe nos acompanhou em tudo.</blockquote><figcaption><img src="https://i.pravatar.cc/80?img=47" alt=""><span><b>Marina e Rafa</b>Adotaram a Luna</span></figcaption></figure>
+      <figure class="tcard"><div class="stars">★★★★★</div><blockquote>Meu filho e o Thor são inseparáveis. Ele chegou tímido e hoje é o coração da nossa casa.</blockquote><figcaption><img src="https://i.pravatar.cc/80?img=12" alt=""><span><b>Lucas Lima</b>Adotou o Thor</span></figcaption></figure>
+      <figure class="tcard"><div class="stars">★★★★★</div><blockquote>Fiquei impressionada com o cuidado da ONG. A Mimi chegou vacinada, castrada e cheia de amor.</blockquote><figcaption><img src="https://i.pravatar.cc/80?img=32" alt=""><span><b>Beatriz Alves</b>Adotou a Mimi</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="cta" id="apoie">
+  <div class="container cta__in">
+    <div>
+      <span class="chip-badge chip-badge--on-dark">Não pode adotar agora?</span>
+      <h2>Você Também Pode Apoiar Nossos Resgates</h2>
+      <p>Sua ajuda faz toda diferença!</p>
+    </div>
+    <div class="cta__btns">
+      <button class="btn btn--white" id="copyPix" data-pix="contato@petadopt.org.br">Chave PIX</button>
+      <a href="#" class="btn btn--outline">Seja um Voluntário</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container footer__in">
+    <div class="footer__brand">
+      <a href="#inicio" class="logo logo--light"><span class="logo__ic"><img src="./images/i.fa-solid.png" alt=""></span><span>PetAdopt</span></a>
+      <p>Conectando animais resgatados a famílias cheias de amor desde 2018.</p>
+    </div>
+    <div><h4>Navegação</h4><a href="#inicio">Início</a><a href="#pets">Sobre Nós</a><a href="#como-funciona">Como Funciona</a></div>
+    <div><h4>Como Ajudar</h4><a href="#apoie">Doar</a><a href="#apoie">Seja Voluntário</a></div>
+    <div>
+      <h4>Newsletter</h4>
+      <form class="news" id="newsForm"><input type="email" placeholder="Seu e-mail" required aria-label="E-mail"><button class="btn btn--primary btn--sm">Assinar</button></form>
+    </div>
+  </div>
+  <p class="footer__copy">© 2026 PetAdopt. Feito com 💜 para os animais.</p>
+</footer>
+
+<div class="toast" id="toast" role="status"></div>
+<script src="script.js"></script>
+</body>
+</html>
